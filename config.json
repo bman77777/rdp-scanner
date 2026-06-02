@@ -1,0 +1,25 @@
+{
+  "exclude_file": "exclude.txt",
+  "output_dir": "results",
+  "masscan": {
+    "ports": "3389",
+    "rate": 10000,
+    "excludefile": "exclude.txt"
+  },
+  "nmap": {
+    "scripts": [
+      "rdp-vuln-ms12-020",
+      "rdp-enum-encryption",
+      "rdp-ntlm-info"
+    ]
+  },
+  "metasploit": {
+    "cves": [
+      "CVE-2019-0708",
+      "CVE-2019-1181",
+      "CVE-2019-1182",
+      "CVE-2019-1384",
+      "MS-T120"
+    ]
+  }
+}
