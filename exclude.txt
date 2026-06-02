@@ -1,0 +1,16 @@
+# Exclude file for RDP Scanner
+# Add IP ranges or individual IPs to exclude from scanning
+
+# Private IP ranges (will be excluded)
+10.0.0.0/8
+172.16.0.0/12
+192.168.0.0/16
+
+# Loopback addresses
+127.0.0.0/8
+
+# Reserved ranges
+0.0.0.0/8
+169.254.0.0/16
+224.0.0.0/4
+240.0.0.0/4
