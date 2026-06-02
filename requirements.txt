@@ -1,0 +1,9 @@
+# RDP Scanner Requirements
+
+# Core tools
+masscan>=1.0.5
+nmap>=7.91
+metasploit-framework>=6.0.0
+
+# Python dependencies
+python>=3.6
